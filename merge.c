@@ -1,24 +1,23 @@
 #include<stdio.h>
 int main()
 {
-int a[40],i,j,temp,n;
-scanf("%d",&n);
-for(i=0;i<n;i++)
+int a[20],i,j,swap,v;
+scanf("%d",&v);
+for(i=0;i<v;i++)
 {
 scanf("%d",&a[i]);
 }
-for(i=0;i<n;i++)
+for(i=0;i<v;i++)
 {
 if(a[i]>a[j])
 {
-temp=a[i];
+swap=a[i];
 a[i]=a[j];
-a[j]=temp;
+a[j]=swap;
 }
 }
-}
-for(i=0;i<n;i++)
+for(i=0;i<v;i++)
 {
 printf("%d',a[i]);
-}return 0;
+}
 }
