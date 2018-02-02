@@ -2,13 +2,13 @@
 #include<conio.h>
 int main()
 {
-int n,s,t;
+int v,s,t;
 cout<<"enter num";
-cin>>n;
+cin>>v;
 while(n!=0)
 {t=n%10;
 s=s+t;
-n=n/10;
+v=v/10;
 }
 cout<<"sum is"<<s;
 getch();
