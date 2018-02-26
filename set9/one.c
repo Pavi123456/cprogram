@@ -1,4 +1,4 @@
-clude <stdio.h>
+#include <stdio.h>
 
 int main(void) {
 int i,n,a,b,v;
