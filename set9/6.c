@@ -3,7 +3,7 @@
 int main(void)
 {
 	char a[100];
-	int i,j,l;
+	int i,j,l,c;
 	printf("enter the string");
 	scanf("%s",a);
 	l=strlen(a);
@@ -14,12 +14,16 @@ int main(void)
 			if(a[i]==a[j])
 			{
       c++;
+			}
+		}
+	}
+	if(c>0){
+		
 				printf("not a isogram");
 			}
 			else
 			{
 				printf("isogram");
 			}
-		}
-	}
+	return 0;
 }
