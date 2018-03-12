@@ -2,13 +2,13 @@
 #include<string.h>
 int main(void) {
 	char a[100];
-	int l,i,n;
+	int len,i,n;
 	printf("enter the string\n");
 	scanf("%s",a);
-	l=strlen(a);
+	len=strlen(a);
 	printf("enter the number\n");
 	scanf("%d",&n);
-	for(i=(l-n);i<=l;i++)
+	for(i=(len-n);i<=len;i++)
 	{
 		printf("%c",a[i]);
 	}
